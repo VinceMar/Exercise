@@ -1,3 +1,4 @@
+/* ------页首------ */
 header {
   background: #337ab7;
   padding: 30px 20px;
@@ -10,12 +11,19 @@ header h1 {
 
 .list {
   border-radius: 0;
-  padding-right: 30px;
+  padding-right: 80px;
 }
 
 .list .list-item,
 .list .list-header {
   padding: 10px;
+}
+/* ------页首END------ */
+
+/* ------主内容------ */
+
+.main {
+  padding:10px 30px;
 }
 
 .picture {
@@ -24,15 +32,65 @@ header h1 {
   margin-bottom: 20px;
 }
 
-.left-page .list-group .list-item {
+.left-part1 {
+  margin-bottom: 50px;
+}
+
+.left-part1 img {
+  width: 100%;
+}
+
+
+
+.left-part1 ul {
+  padding-left: 10px;
+}
+
+.left-part2 .list-left img {
+  width: 100%;
+}
+
+.left-part2 ul {
+  padding-left: 10px;
+}
+
+.left-part1 .list-item ,
+.left-part2 .list-item {
   padding: 10px 0;
   border-bottom: 1px dashed #bdc3c7;
   list-style-type: none;
 }
 
-.left-page .list-group .list-item a {
+.left-part1 .list-item a ,
+.left-part2 .list-item a {
   color: black;
   font-size: 18px;
+}
+
+.left-part1 h1,
+.left-part2 h1 {
+  margin-bottom: 20px;
+}
+
+.right-part1 .font-pic {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #34495e;
+  border-radius: 8px;
+  color: black;
+  padding: 2px;
+}
+
+.right-part1 .font-pic p {
+  border-top: 1px solid black;
+}
+
+.right-part1 .font-pic p:first-child {
+  border-top: 0;
+}
+
+.right-part1 .list-item .right {
+  padding-left: 20px;
 }
 
 .right-page .list-item{
@@ -49,7 +107,12 @@ header h1 {
   color: #95a5a6;
 }
 
+/* ------主内容END------ */
+
+
+/* ------页脚------ */
 footer {
+  margin-top: 50px;
   background: #337ab7;
 }
 footer p {
@@ -57,3 +120,4 @@ footer p {
   padding: 10px;
   color: white;
 }
+/* ------页脚END------ */
