@@ -39,13 +39,15 @@ header h1 {
 /* ------主内容------ */
 
 .main {
-  padding:10px 30px;
+  padding:0;
 }
 
-.picture {
-  border-radius: 8px;
-  width: 100%;
-  margin-bottom: 20px;
+.content {
+  padding: 0 30px;
+}
+
+#myCarousel {
+  margin-bottom: 50px;
 }
 
 .left-part1 {
@@ -106,8 +108,12 @@ header h1 {
   border-top: 0;
 }
 
+.right-part1 .list-item .left {
+  text-align: center;
+}
+
 .right-part1 .list-item .right {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .right-page .list-item{
