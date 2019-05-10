@@ -14,9 +14,25 @@ header h1 {
   padding-right: 80px;
 }
 
+.list .list-header a {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.list .list-item a {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  transition: .5s;
+}
+
 .list .list-item,
 .list .list-header {
   padding: 10px;
+}
+
+.list .list-item {
+  padding-left: 50px;
 }
 /* ------页首END------ */
 
@@ -75,14 +91,15 @@ header h1 {
 .right-part1 .font-pic {
   display: inline-block;
   text-align: center;
-  border: 1px solid #34495e;
+  border: 2px solid #34495e;
   border-radius: 8px;
   color: black;
   padding: 2px;
 }
 
 .right-part1 .font-pic p {
-  border-top: 1px solid black;
+  border-top: 1px solid #7f8c8d;
+  padding-top: 3px;
 }
 
 .right-part1 .font-pic p:first-child {
